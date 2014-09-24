@@ -1,5 +1,4 @@
 .Header {
-  display: inline-block;
   font-family: Arial, sans-serif;
   border-bottom-style: solid;
   border-width: 1px;
@@ -9,6 +8,7 @@
 }
 
 ul {
+    display: inline-block;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
@@ -31,15 +31,15 @@ ul {
 }
 
 .Foot {
+  display: inline-block;
   color: hsla(1, 3%, 70%, 1);
-  float: left;
   height: 25px;
   padding-top: 10px;
 }
 
 .Foot img {
-  height: 25px;
-  width: 25px;
+  height: 100%;
+  width: 100%;
   border: none;
   border-radius: 8px;
   margin: 1px;
