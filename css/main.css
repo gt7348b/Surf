@@ -16,12 +16,15 @@
   background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg);
 }
 
+.Header li {
+    display: inline-block;
+}
 .HeaderLeft {
   float: left;
 }
 
 .HeaderRight {
-  display: inline-block;
+  float: right;
 }
 
 .Title {
@@ -43,6 +46,10 @@ ul {
     margin: 0px;
 }
 
+li {
+  display: inline-block;
+}
+
 .Main1, .Main2, .PostTitle, .Foot, .Base {
   font-family: Open Sans;
   border-style: solid;
@@ -58,10 +65,14 @@ ul {
 }
 
 .Headfoot li {
-  background-color: blue;
+  background-color: grey;
   color: hsla(205, 100%, 100%, 1);
+  display: inline-block;
 }
 
+.Headfoot li:hover {
+    background-color: blue;
+}
 .Headfoot img{
   background-color: black;
 }
@@ -87,11 +98,19 @@ ul {
   padding-top: 10px;
 }
 
+
 .Foot img {
   style="float: right; margin: 0px 0px 15px 15px;"height: 100%;
   width: 100%;
   border: none;
   margin: 1px;
+  opacity: 0.4;
+  background-color: lightblue;
+}
+
+.Foot img:hover {
+    opacity: 1.0;
+    background-color: none;
 }
 
 .image-caption {
