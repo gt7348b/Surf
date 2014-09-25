@@ -38,7 +38,6 @@
 }
 
 ul {
-    display: inline;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
@@ -89,7 +88,7 @@ ul {
 }
 
 .Foot img {
-  height: 100%;
+  style="float: right; margin: 0px 0px 15px 15px;"height: 100%;
   width: 100%;
   border: none;
   margin: 1px;
@@ -98,12 +97,11 @@ ul {
 .image-caption {
   float: right;
   width: 250px;
-  text-align: right;
+  text-align: left;
 }
 
 a:link {
     color: black;
-    text-decoration: none;
     font-weight: bold;
 }
 
