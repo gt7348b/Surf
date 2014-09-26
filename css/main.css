@@ -19,6 +19,7 @@
 
 .Header li {
     display: inline-block;
+    vertical-align: middle;
 }
 .HeaderLeft {
   float: left;
@@ -70,6 +71,11 @@ li {
 	margin: 0 auto;
 }
 
+.Main li{
+  display:inline-block;
+  vertical-align:top;
+  overflow:hidden;
+}
 .Main1 {
   width: 500px;
 }
@@ -97,6 +103,7 @@ h1 {
   background-color: grey;
   color: hsla(205, 100%, 100%, 1);
   display: inline-block;
+  vertical-align: middle;
 }
 
 .Headfoot li:hover {
@@ -193,6 +200,10 @@ a:link {
 
 .BaseLeft {
   float: left;
+}
+
+.BaseLeft {
+  vertical-align: middle;
 }
 
 .BaseRight {
