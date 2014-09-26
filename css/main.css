@@ -73,16 +73,26 @@ li {
 .Headfoot li:hover {
     background-color: blue;
 }
+
 .Headfoot img{
-  background-color: black;
+  background-color: darkgrey;
+}
+
+.Headfoot img:hover {
+    background-color: black;
 }
 
 .Main2 {
   text-align: center;
 }
 
-.Main2 ul {
+.Main2 li {
   font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.Main2Text {
+  .text-align: left;
 }
 
 .PostTitle {
