@@ -173,6 +173,17 @@ a:link {
 }
 
 .Base {
-  display: inline-block;
   background-color: #083452;
+  color: grey;
+  height: 74px;
+  font-size: 12px;
+}
+
+.BaseLeft {
+  float: left;
+}
+
+.BaseRight {
+  float: right;
+  margin: 30px;
 }
