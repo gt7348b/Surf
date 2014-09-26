@@ -91,8 +91,19 @@ li {
   margin-bottom: 0px;
 }
 
+.liException li {
+  display: block;
+}
+
+h2 {
+  color: lightblue;
+  text-height: 24px;
+  margin-bottom: 0px;
+}
+
 .Main2Text {
-  .text-align: left;
+  text-align: left;
+  margin-top: 0px;
 }
 
 .PostTitle {
