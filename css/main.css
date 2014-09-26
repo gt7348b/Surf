@@ -65,8 +65,12 @@ li {
   left: 50%;
 }
 
+.Table{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
 .Main1 {
-  float: left;
   width: 500px;
 }
 
@@ -76,13 +80,17 @@ h1 {
 }
 
 .Main2 {
-  float: right;
-  width: 250px;
+  text-align: center;
+  width: 280px;
 }
 
 .Main1 img {
   height: 20px;
   width: 20px;
+}
+
+.blockquote {
+  color: #3C7DAC;
 }
 
 .Headfoot li {
@@ -103,10 +111,6 @@ h1 {
     background-color: black;
 }
 
-.Main2 {
-  text-align: center;
-}
-
 .Main2 li {
   font-size: 10px;
   margin-bottom: 0px;
@@ -122,7 +126,7 @@ h1 {
 }
 
 h2 {
-  color: lightblue;
+  color: #3C7DAC;
   text-height: 24px;
   margin-bottom: 0px;
 }
