@@ -78,12 +78,20 @@ li {
 }
 
 .Main1 {
-  width: 500px;
+  width: 620px;
 }
 
 h1 {
   color: #083452;
   font-size: 56px;
+}
+
+.subheader {
+  font-size: 11px;
+}
+
+.Name {
+  color: #3C7DAC;
 }
 
 .Main2 {
@@ -98,6 +106,11 @@ h1 {
 
 .blockquote {
   color: #3C7DAC;
+  font-size: 20px;
+}
+
+.Headfoot {
+  text-align: center;
 }
 
 .Headfoot li {
@@ -105,6 +118,7 @@ h1 {
   color: hsla(205, 100%, 100%, 1);
   display: inline-block;
   vertical-align: middle;
+  font-size: 11px;
 }
 
 .Headfoot li:hover {
@@ -122,6 +136,12 @@ h1 {
 .Main2 li {
   font-size: 10px;
   margin-bottom: 0px;
+}
+
+.SocialM {
+  text-align: center;
+  width: 200px;
+  font-size: 11px;
 }
 
 .SocialM li {
