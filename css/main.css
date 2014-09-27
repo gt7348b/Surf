@@ -168,11 +168,11 @@ width: 100%;
   position: relative;
 }
 
-h3 {
-  position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
+.Footimg h3 {
+  position: relative;
+  top: -60px;
+  left: 10px;
+  width: 100%;
 }
 
 .Foot img:hover {
