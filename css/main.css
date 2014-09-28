@@ -23,10 +23,16 @@
 }
 .HeaderLeft {
   float: left;
+  position: relative;
+  top: 60px;
+  left: 50px
 }
 
 .HeaderRight {
   float: right;
+  position: relative;
+  top: 60px;
+  right: 50px
 }
 
 .Title {
@@ -245,6 +251,9 @@ a:link {
 
 .BaseLeft {
   float: left;
+  position: relative;
+  top: 60px;
+  left: 50px
 }
 
 .BaseLeft li {
@@ -253,5 +262,7 @@ a:link {
 
 .BaseRight {
   float: right;
-  margin: 30px;
+  position: relative;
+  top: 60px;
+  right: 50px;
 }
