@@ -205,8 +205,8 @@ h2 {
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
-      rgba(255, 0, 0, 0.45),
-      rgba(255, 0, 0, 0.45)
+      rgba(60,125,148, 0.45),
+      rgba(60,125,148, 0.45)
     ),
     /* bottom, image */
     url(image.jpg);
