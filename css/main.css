@@ -7,6 +7,8 @@
 
 }
 
+/* Header Formating */
+
 .Header {
   text-align: center;
   font-family: Oswald, sans-serif;
@@ -24,14 +26,14 @@
 .HeaderLeft {
   float: left;
   position: relative;
-  top: 60px;
+  top: 0px;
   left: 50px
 }
 
 .HeaderRight {
   float: right;
   position: relative;
-  top: 60px;
+  top: 24px;
   right: 50px
 }
 
@@ -67,13 +69,15 @@ li {
   border-color: hsla(1, 3%, 70%, 1);
 }
 
+/* Main Formating */
+
 .Main {
   top: 50%;
   left: 50%;
 }
 
 .Table {
-	display: table;   /* Allow the centering to work */
+	display: table;
 	margin: 0 auto;
 }
 
@@ -82,6 +86,8 @@ li {
   vertical-align:top;
   overflow:hidden;
 }
+
+/* Left Side Main Formating */
 
 .Main1 {
   width: 620px;
@@ -100,11 +106,6 @@ h1 {
   color: #3C7DAC;
 }
 
-.Main2 {
-  text-align: center;
-  width: 280px;
-}
-
 .Main1 img {
   height: 20px;
   width: 20px;
@@ -112,7 +113,11 @@ h1 {
 
 .blockquote {
   color: #3C7DAC;
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.blockquote:before{
+  "|"
 }
 
 .Headfoot {
@@ -125,6 +130,10 @@ h1 {
   display: inline-block;
   vertical-align: middle;
   font-size: 11px;
+  padding-left: 7px;
+  padding-right: 2.5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
 }
 
 .Headfoot li:hover {
@@ -139,9 +148,21 @@ h1 {
     background-color: black;
 }
 
+/* Right Side Main Formating */
+
+.Main2 {
+  text-align: center;
+  width: 280px;
+}
+
 .Main2 li {
   font-size: 10px;
   margin-bottom: 0px;
+}
+
+.Anne {
+  color: #3C7DAC;
+  font-size: 16px;
 }
 
 .SocialM {
@@ -178,6 +199,8 @@ h2 {
   font-size: 54px;
 }
 
+/* Footer Formating */
+
 .Foot {
   clear: both;
   display: inline-block;
@@ -203,12 +226,10 @@ h2 {
 
 .Footimg {
   background:
-    /* top, transparent red, faked with gradient */
     linear-gradient(
       rgba(60,125,148, 0.45),
       rgba(60,125,148, 0.45)
     ),
-    /* bottom, image */
     url(image.jpg);
 }
 
@@ -241,6 +262,8 @@ a:link {
     font-weight: bold;
     text-decoration: none;
 }
+
+/* Base Formating */
 
 .Base {
   background-color: #083452;
