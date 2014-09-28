@@ -179,9 +179,6 @@ h2 {
   height: 25px;
 }
 
-.Footimg {
-  height: 329px;
-}
 
 .Foot img {
   width: 100%;
@@ -191,13 +188,35 @@ h2 {
   position: relative;
 }
 
+
+.Footimg img{
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.Footimg {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(image.jpg);
+}
+
+.Footimg:hover{
+  background: none;
+}
+
 .Footimg h3 {
   position: relative;
   top: -60px;
   left: 10px;
   width: 100%;
   font-size: 28px;
-  color; white;
+  color: white;
 }
 
 .Foot img:hover {
@@ -214,6 +233,7 @@ h2 {
 a:link {
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .Base {
