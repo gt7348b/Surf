@@ -5,7 +5,7 @@
 /*Variables */
 
 $color1: #083452;
-$color2: #3C7DAC;
+$color2: hsla(206,84%,38%,1);
 $color3: grey;
 
 $font1: Oswald, sans serif;
@@ -19,11 +19,9 @@ $stdht2: 100px;
 /*Mixins */
 
 @mixin picturebox(){
-  width: 100%;
-  border: none;
-  margin: 1px;
-  opacity: 0.4;
-  position: relative;
+  width: 187px;
+  float: left;
+  margin-right: 10px;
 }
 
 
@@ -225,8 +223,6 @@ h2 {
 .Foot {
   clear: both;
   display: inline-block;
-  color: hsla(1, 3%, 70%, 1);
-  height: 25px;
 }
 
 .box {
