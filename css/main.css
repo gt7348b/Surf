@@ -80,31 +80,29 @@ h1 {
   font-size: 11px; }
 
 .Name {
-  color: #3C7DAC; }
+  color: #106cb2; }
 
 .Main1 img {
   height: 20px;
   width: 20px; }
 
 .blockquote {
-  color: #3C7DAC;
+  color: #106cb2;
   font-size: 24px; }
 
 .Headfoot {
   text-align: center; }
 
 .Footbox {
+  width: 187px;
+  float: left;
+  margin-right: 10px;
   background-color: grey;
   color: white;
   display: inline-block;
-  vertical-align: middle;
-  font-size: 11px;
-  padding-left: 7px;
-  padding-right: 2.5px;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px; }
+  vertical-align: middle; }
 
-.Footbox:hover {
+.Footbox:hover .textbox {
   background-color: #106DB3; }
 
 .imgbox {
@@ -112,7 +110,7 @@ h1 {
   height: 20px;
   background-color: darkgrey; }
 
-.Headfoot img:hover {
+.Footbox:hover .imgbox {
   background-color: black; }
 
 /* Right Side Main Formating */
@@ -125,7 +123,7 @@ h1 {
   margin-bottom: 0px; }
 
 .Anne {
-  color: #3C7DAC;
+  color: #106cb2;
   font-size: 16px;
   margin-top: 0px; }
 
@@ -162,9 +160,7 @@ h2 {
 /* Footer Formating */
 .Foot {
   clear: both;
-  display: inline-block;
-  color: #b5b0b0;
-  height: 25px; }
+  display: inline-block; }
 
 .box {
   width: 325px;
