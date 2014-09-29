@@ -15,6 +15,9 @@ $color7: #106DB3;
 $color8: black;
 $color9: #FFF;
 
+$fontfamily1: "Oswald", sans-serif;
+$fontfamily2: "Open Sans" Sans-serif;
+
 $std0: 0px;
 $std2: -4px;
 $std1: 1px;
@@ -57,7 +60,7 @@ $std700: 700px;
 
 .Header {
   text-align: center;
-  font-family: Oswald, sans-serif;
+  font-family: $fontfamily1;
   border-bottom-style: solid;
   border-width: $std1;
   height: $std520;
@@ -109,7 +112,7 @@ li {
 
 .Main1, .Main2, .PostTitle, .Foot, .Base {
   margin: $std10 auto;
-  font-family: "Open Sans" Sans-serif;
+  font-family: $fontfamily2;
 }
 
 /* Main Formating */
