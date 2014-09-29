@@ -79,9 +79,11 @@ h1 {
 
 .subheader {
   font-size: 11px; }
-
-.Name {
-  color: #106cb2; }
+  .subheader .Name {
+    color: #106cb2; }
+  .subheader a {
+    text-decoration: none;
+    color: grey; }
 
 .Main1 img {
   height: 20px;
@@ -89,7 +91,8 @@ h1 {
 
 .blockquote {
   color: #106cb2;
-  font-size: 24px; }
+  font-size: 24px;
+  font-family: "Oswald", sans-serif; }
 
 .Headfoot {
   text-align: center; }
@@ -148,7 +151,7 @@ h1 {
   text-align: right; }
 
 h2 {
-  color: grey;
+  color: #106cb2;
   text-height: 24px;
   margin-bottom: 0px; }
 

@@ -146,10 +146,15 @@ h1 {
 
 .subheader {
   font-size: $std11;
-}
 
-.Name {
-  color: $color2;
+  .Name {
+    color: $color2;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color3;
+  }
 }
 
 .Main1 img {
@@ -160,6 +165,7 @@ h1 {
 .blockquote {
   color: $color2;
   font-size: $std24;
+  font-family: $fontfamily1;
 }
 
 .Headfoot {
@@ -235,7 +241,7 @@ h1 {
 }
 
 h2 {
-  color: $color3;
+  color: $color2;
   text-height: $std24;
   margin-bottom: $std0;
 }
