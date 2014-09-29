@@ -46,7 +46,7 @@ $std700: 700px;
 /*Mixins */
 
 @mixin box1(){
-  width: 187px;
+  width: $std200;
   float: left;
   margin-right: $std1;
 }
@@ -98,6 +98,12 @@ $std700: 700px;
   position: relative;
   top: $std24;
   right: $std50;
+
+  a {
+    text-decoration: none;
+    font-size: $std16;
+    color: $color1;
+  }
 }
 
 ul {
@@ -190,7 +196,7 @@ h1 {
 
 .textbox {
   background-color: $color5;
-  padding: $std1  $std15 $std1  $std1 ;
+  padding: $std10 $std15 $std10 $std10 ;
   margin-left: $std2;
 }
 
