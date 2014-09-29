@@ -188,14 +188,16 @@ h1 {
   margin-left: $std2;
 }
 
-.Footbox:hover .textbox {
+.Footbox:hover{
+
+  .textbox {
     background-color: $color7;
-}
+  }
 
-.Footbox:hover .imgbox {
+  .imgbox {
     background-color: $color8;
+  }
 }
-
 
 /* Right Side Main Formating */
 
@@ -213,6 +215,7 @@ h1 {
   color: $color2;
   font-size: $std16;
   margin-top: $std0;
+  padding: $std10;
 }
 
 .SocialM {
@@ -266,11 +269,14 @@ h2 {
   background-color: $color2;
 }
 
-.box img {
-  opacity: .2;
-}
+.box {
 
-.box p.text {
+  img {
+    opacity: .2;
+  }
+
+
+  p.text {
   color: $color1;
   position: absolute;
   bottom: 0;
@@ -279,6 +285,7 @@ h2 {
   font-size: $std28;
   text-transform: uppercase;
   font-weight: bold;
+  }
 }
 
 .box:hover img {

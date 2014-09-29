@@ -116,7 +116,6 @@ h1 {
 
 .Footbox:hover .textbox {
   background-color: #106DB3; }
-
 .Footbox:hover .imgbox {
   background-color: black; }
 
@@ -132,7 +131,8 @@ h1 {
 .Anne {
   color: #106cb2;
   font-size: 16px;
-  margin-top: 0px; }
+  margin-top: 0px;
+  padding: 10px; }
 
 .SocialM {
   text-align: center;
@@ -177,7 +177,6 @@ h2 {
 
 .box img {
   opacity: .2; }
-
 .box p.text {
   color: #083554;
   position: absolute;
