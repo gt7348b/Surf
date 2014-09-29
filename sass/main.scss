@@ -2,6 +2,31 @@
 
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
+/*Variables */
+
+$color1: #083452;
+$color2: #3C7DAC;
+$color3: grey;
+
+$font1: Oswald, sans serif;
+$font2: Open+Sans;
+
+$stdwd1: 20px;
+$stdwd2: 50px;
+$stdht1: 75px;
+$stdht2: 100px;
+
+/*Mixins */
+
+@mixin picturebox(){
+  width: 100%;
+  border: none;
+  margin: 1px;
+  opacity: 0.4;
+  position: relative;
+}
+
+
 /* Header Formating */
 
 .Header {
@@ -88,7 +113,7 @@ li {
 }
 
 h1 {
-  color: #083452;
+  color: $color1;
   font-size: 56px;
 }
 
@@ -106,7 +131,7 @@ h1 {
 }
 
 .blockquote {
-  color: #3C7DAC;
+  color: $color2;
   font-size: 24px;
 }
 
@@ -115,7 +140,7 @@ h1 {
 }
 
 .Headfoot li {
-  background-color: grey;
+  background-color: $color3;
   color: hsla(205, 100%, 100%, 1);
   display: inline-block;
   vertical-align: middle;
@@ -151,7 +176,7 @@ h1 {
 }
 
 .Anne {
-  color: #3C7DAC;
+  color: $color2;
   font-size: 16px;
   margin-top: 0px;
 }
@@ -173,7 +198,7 @@ h1 {
 }
 
 h2 {
-  color: #3C7DAC;
+  color: $color3;
   text-height: 24px;
   margin-bottom: 0px;
 }
@@ -183,11 +208,13 @@ h2 {
   margin-top: 0px;
 }
 
+/* Post Formating */
+
 .PostTitle {
   clear: both;
   font-size: 28px;
   text-align: center;
-  color: #083452;
+  color: $color1;
   font-size: 54px;
 }
 

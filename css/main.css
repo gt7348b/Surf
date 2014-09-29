@@ -1,5 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Oswald");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans");
+/*Variables */
+/*Mixins */
 /* Header Formating */
 .Header {
   text-align: center;
@@ -139,7 +141,7 @@ h1 {
   text-align: right; }
 
 h2 {
-  color: #3C7DAC;
+  color: grey;
   text-height: 24px;
   margin-bottom: 0px; }
 
@@ -147,6 +149,7 @@ h2 {
   text-align: left;
   margin-top: 0px; }
 
+/* Post Formating */
 .PostTitle {
   clear: both;
   font-size: 28px;
