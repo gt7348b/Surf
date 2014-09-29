@@ -1,0 +1,370 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Header Formating */
+
+.Header {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: hsla(1, 3%, 70%, 1);
+  height: 520px;
+  background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg);
+}
+
+.Header li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.HeaderLeft {
+  float: left;
+  position: relative;
+  top: 3%;
+  left: 50px
+}
+
+.HeaderRight {
+  float: right;
+  position: relative;
+  top: 24px;
+  right: 50px
+}
+
+.Title {
+  font-size: 80px;
+  color: hsla(205, 100%, 100%, 1);
+  margin-top: 222px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 50%;
+}
+
+.Subtitle {
+  font-size: 14px;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+.Main1, .Main2, .PostTitle, .Foot, .Base {
+  margin: 10 auto;
+  font-family: "Open Sans" Sans-serif;
+}
+
+/* Main Formating */
+
+.Main {
+  top: 50%;
+  left: 50%;
+}
+
+.Table {
+	display: table;
+	margin: 0 auto;
+}
+
+.Main li{
+  display:inline-block;
+  vertical-align:top;
+  overflow:hidden;
+}
+
+/* Left Side Main Formating */
+
+.Main1 {
+  width: 620px;
+}
+
+h1 {
+  color: #083452;
+  font-size: 56px;
+}
+
+.subheader {
+  font-size: 11px;
+}
+
+.Name {
+  color: #3C7DAC;
+}
+
+.Main1 img {
+  height: 20px;
+  width: 20px;
+}
+
+.blockquote {
+  color: #3C7DAC;
+  font-size: 24px;
+}
+
+.blockquote:before{
+  "|"
+}
+
+.Headfoot {
+  text-align: center;
+}
+
+.Headfoot li {
+  background-color: grey;
+  color: hsla(205, 100%, 100%, 1);
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 11px;
+  padding-left: 7px;
+  padding-right: 2.5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.Headfoot li:hover {
+    background-color: #106DB3;
+}
+
+.Headfoot img{
+  background-color: darkgrey;
+}
+
+.Headfoot img:hover {
+    background-color: black;
+}
+
+/* Right Side Main Formating */
+
+.Main2 {
+  text-align: center;
+  width: 280px;
+}
+
+.Main2 li {
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.Anne {
+  color: #3C7DAC;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.SocialM {
+  text-align: center;
+  width: 200px;
+  font-size: 12px;
+}
+
+.SocialM li {
+  padding-right: 5.5px;
+  padding-left: 5.5px;
+}
+
+.liException li {
+  display: block;
+  text-align: right;
+}
+
+h2 {
+  color: #3C7DAC;
+  text-height: 24px;
+  margin-bottom: 0px;
+}
+
+.Main2Text {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.PostTitle {
+  clear: both;
+  font-size: 28px;
+  text-align: center;
+  color: #083452;
+  font-size: 54px;
+}
+
+/* Footer Formating */
+
+.Foot {
+  clear: both;
+  display: inline-block;
+  color: hsla(1, 3%, 70%, 1);
+  height: 25px;
+}
+
+.Foot img {
+  width: 100%;
+  border: none;
+  margin: 1px;
+  opacity: 0.4;
+  position: relative;
+}
+
+.PostP1{
+  width: 324px;
+  height: 330px;
+  background:
+    linear-gradient(
+      rgba(60,125,172, 0.45),
+      rgba(60,125,172, 0.45)
+    ),
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-1.jpg);
+}
+
+.PostP1 .Hover1{
+  position:relative;
+  top:0px;
+  width: 324px;
+  height: 330px;
+  background:#3C7DAC;
+  opacity:0; }
+
+.PostP1:hover .Hover1 {
+   background:
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-1.jpg);
+  opacity:0.7;
+}
+
+.PostP2{
+  width:100%;
+  height:100%;
+  background:
+    linear-gradient(
+      rgba(60,125,172, 0.45),
+      rgba(60,125,172, 0.45)
+    ),
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-2.jpg);
+}
+
+.PostP2 .Hover1{
+  position:relative;
+  top:0px;
+  width: 324px;
+  height: 330px;
+  background:#3C7DAC;
+  opacity:0; }
+
+.PostP2:hover .Hover1 {
+   background:
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-2.jpg);
+  opacity:0.7;
+}
+
+.PostP3{
+  width:100%;
+  height:100%;
+  background:
+    linear-gradient(
+      rgba(60,125,172, 0.45),
+      rgba(60,125,172, 0.45)
+    ),
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-3.jpg);
+}
+
+.PostP3 .Hover1{
+  position:relative;
+  top:0px;
+  width: 324px;
+  height: 330px;
+  background:#3C7DAC;
+  opacity:0; }
+
+.PostP3:hover .Hover1 {
+   background:
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-3.jpg);
+  opacity:0.7;
+}
+
+.PostP4{
+  width:100%;
+  height:100%;
+  background:
+    linear-gradient(
+      rgba(60,125,172, 0.45),
+      rgba(60,125,172, 0.45)
+    ),
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-4.jpg);
+}
+
+.PostP4 .Hover1{
+  position:relative;
+  top:0px;
+  width: 324px;
+  height: 330px;
+  background:#3C7DAC;
+  opacity:0; }
+
+.PostP4:hover .Hover1 {
+   background:
+    url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-4.jpg);
+  opacity:0.7;
+}
+
+
+.Footimg h3 {
+  position: relative;
+  top: -80px;
+  left: 10px;
+  width: 75%;
+  font-size: 28px;
+  color: #083452;
+}
+
+.Footimg h3:hover {
+  position: relative;
+  top: -70px;
+  left: 10px;
+  width: 100%;
+  font-size: 28px;
+  color: white;
+}
+.image-caption {
+  float: right;
+  width: 250px;
+  text-align: left;
+}
+
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Base Formating */
+
+.Base {
+  background-color: #083452;
+  color: grey;
+  height: 74px;
+  font-size: 12px;
+}
+
+.BaseLeft {
+  float: left;
+  position: relative;
+  padding-top: 1%;
+  padding-left: 10%
+}
+
+.BaseLeft li {
+  vertical-align: middle;
+}
+
+.BaseRight {
+  float: right;
+  position: relative;
+  padding-top: 2.5%;
+  padding-right: 10%;
+}
