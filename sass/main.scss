@@ -4,9 +4,15 @@
 
 /*Variables */
 
-$color1: #083452;
-$color2: hsla(206,84%,38%,1);
+$color1: hsla(204, 82%, 18%, 1);
+$color2: hsla(206, 84%, 38%, 1);
 $color3: grey;
+$color4: hsla(205, 8%, 40%, 1);
+$color5: hsla(206, 18%, 69%, 1);
+$color6: #fff;
+$color7: #106DB3;
+$color8: black;
+$color9: #FFF
 
 $font1: Oswald, sans serif;
 $font2: Open+Sans;
@@ -36,7 +42,6 @@ $std4: 100px;
   font-family: Oswald, sans-serif;
   border-bottom-style: solid;
   border-width: 1px;
-  border-color: hsla(1, 3%, 70%, 1);
   height: 520px;
   background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg);
 }
@@ -85,7 +90,7 @@ li {
 }
 
 .Main1, .Main2, .PostTitle, .Foot, .Base {
-  margin: 10 auto;
+  margin: $std1 auto;
   font-family: "Open Sans" Sans-serif;
 }
 
@@ -153,12 +158,12 @@ h1 {
 .textbox {
   background-color: hsla(205,8%,40%,1);
   display: inline-block;
-  padding: 10px 13px;
+  padding: $std1 13px;
 }
 
 .textbox {
   background-color: hsla(206,18%,69%,1);
-  padding: 10px 15px 10px 10px;
+  padding: $std1  15px $std1  $std1 ;
   margin-left: -4px;
 }
 
@@ -179,7 +184,7 @@ h1 {
 }
 
 .Main2 li {
-  font-size: 10px;
+  font-size: $std1;
   margin-bottom: 0px;
 }
 
@@ -220,7 +225,6 @@ h2 {
 
 .PostTitle {
   clear: both;
-  font-size: 28px;
   text-align: center;
   color: $color1;
   font-size: 54px;
@@ -238,7 +242,7 @@ h2 {
   height: 325px;
   overflow: hidden;
   position: relative;
-  background-color: hsla(206,84%,38%,1);
+  background-color: $color2;
 }
 
 .box img {
@@ -246,7 +250,7 @@ h2 {
 }
 
 .box p.text {
-  color: hsla(204,82%,18%,1);
+  color: $color1;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -261,18 +265,6 @@ h2 {
 }
 .box:hover p.text {
   color: #FFF;
-}
-
-.image-caption {
-  float: right;
-  width: 250px;
-  text-align: left;
-}
-
-a:link {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 /* Base Formating */
