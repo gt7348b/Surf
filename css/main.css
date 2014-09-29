@@ -208,7 +208,6 @@ h2 {
   height: 25px;
 }
 
-
 .Foot img {
   width: 100%;
   border: none;
@@ -218,8 +217,8 @@ h2 {
 }
 
 .PostP1{
-  width:320px;
-  height:240px;
+  width: 324px;
+  height: 330px;
   background:
     linear-gradient(
       rgba(60,125,172, 0.45),
@@ -231,8 +230,8 @@ h2 {
 .PostP1 .Hover1{
   position:relative;
   top:0px;
-  width:320px;
-  height:240px;
+  width: 324px;
+  height: 330px;
   background:#3C7DAC;
   opacity:0; }
 
@@ -256,8 +255,8 @@ h2 {
 .PostP2 .Hover1{
   position:relative;
   top:0px;
-  width:320px;
-  height:240px;
+  width: 324px;
+  height: 330px;
   background:#3C7DAC;
   opacity:0; }
 
@@ -281,8 +280,8 @@ h2 {
 .PostP3 .Hover1{
   position:relative;
   top:0px;
-  width:320px;
-  height:240px;
+  width: 324px;
+  height: 330px;
   background:#3C7DAC;
   opacity:0; }
 
@@ -306,8 +305,8 @@ h2 {
 .PostP4 .Hover1{
   position:relative;
   top:0px;
-  width:320px;
-  height:240px;
+  width: 324px;
+  height: 330px;
   background:#3C7DAC;
   opacity:0; }
 
@@ -324,9 +323,17 @@ h2 {
   left: 10px;
   width: 100%;
   font-size: 28px;
-  color: white;
+  color: #3C7DAC;
 }
 
+.Footimg h3:hover {
+  position: relative;
+  top: -60px;
+  left: 10px;
+  width: 100%;
+  font-size: 28px;
+  color: white;
+}
 .image-caption {
   float: right;
   width: 250px;
