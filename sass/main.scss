@@ -4,6 +4,7 @@
 
 /*Variables */
 
+/* Colors */
 $color1: hsla(204, 82%, 18%, 1);
 $color2: hsla(206, 84%, 38%, 1);
 $color3: grey;
@@ -12,10 +13,7 @@ $color5: hsla(206, 18%, 69%, 1);
 $color6: #fff;
 $color7: #106DB3;
 $color8: black;
-$color9: #FFF
-
-$font1: Oswald, sans serif;
-$font2: Open+Sans;
+$color9: #FFF;
 
 $std0: 0px;
 $std2: -4px;
@@ -30,7 +28,10 @@ $std16: 16px;
 $std20: 20px;
 $std24: 24px;
 $std28: 28px;
+$std50: 50px;
+$std54: 54px;
 $std56: 56px;
+$std74: 74px;
 $std80: 80px;
 $std200: 200px;
 $std250: 250px;
@@ -58,8 +59,8 @@ $std700: 700px;
   text-align: center;
   font-family: Oswald, sans-serif;
   border-bottom-style: solid;
-  border-width: 1px;
-  height: 520px;
+  border-width: $std1;
+  height: $std520;
   background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg);
 }
 
@@ -69,16 +70,16 @@ $std700: 700px;
 }
 
 .Title {
-  font-size: 80px;
+  font-size: $std80;
   color: hsla(205, 100%, 100%, 1);
   margin-top: 222px;
-  margin-bottom: 0px;
+  margin-bottom: $std0;
   text-align: center;
 }
 
 .Subtitle {
-  font-size: 14px;
-  margin-top: 0px;
+  font-size: $std14;
+  margin-top: $std0;
   text-align: center;
 }
 
@@ -86,20 +87,20 @@ $std700: 700px;
   float: left;
   position: relative;
   top: 3%;
-  left: $std2;
+  left: $std50;
 }
 
 .HeaderRight {
   float: right;
   position: relative;
-  top: 24px;
-  right: $std2;
+  top: $std24;
+  right: $std50;
 }
 
 ul {
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: $std0;
+    margin: $std0;
 }
 
 li {
@@ -107,7 +108,7 @@ li {
 }
 
 .Main1, .Main2, .PostTitle, .Foot, .Base {
-  margin: $std1 auto;
+  margin: $std10 auto;
   font-family: "Open Sans" Sans-serif;
 }
 
@@ -132,16 +133,16 @@ li {
 /* Left Side Main Formating */
 
 .Main1 {
-  width: 700px;
+  width: $std700;
 }
 
 h1 {
   color: $color1;
-  font-size: 56px;
+  font-size: $std56;
 }
 
 .subheader {
-  font-size: 11px;
+  font-size: $std11;
 }
 
 .Name {
@@ -149,13 +150,13 @@ h1 {
 }
 
 .Main1 img {
-  height: 20px;
-  width: 20px;
+  height: $std20;
+  width: $std20;
 }
 
 .blockquote {
   color: $color2;
-  font-size: 24px;
+  font-size: $std24;
 }
 
 .Headfoot {
@@ -168,28 +169,28 @@ h1 {
 
 .Footbox a.link {
   text-decoration: none;
-  color: #fff;
+  color: $color6;
 }
 
 .imgbox,
 .textbox {
-  background-color: hsla(205,8%,40%,1);
+  background-color: $color4;
   display: inline-block;
-  padding: $std1 13px;
+  padding: $std1 $std13;
 }
 
 .textbox {
-  background-color: hsla(206,18%,69%,1);
-  padding: $std1  15px $std1  $std1 ;
-  margin-left: -4px;
+  background-color: $color5;
+  padding: $std1  $std15 $std1  $std1 ;
+  margin-left: $std2;
 }
 
 .Footbox:hover .textbox {
-    background-color: #106DB3;
+    background-color: $color7;
 }
 
 .Footbox:hover .imgbox {
-    background-color: black;
+    background-color: $color8;
 }
 
 
@@ -197,29 +198,29 @@ h1 {
 
 .Main2 {
   text-align: center;
-  width: 280px;
+  width: $std280;
 }
 
 .Main2 li {
   font-size: $std1;
-  margin-bottom: 0px;
+  margin-bottom: $std0;
 }
 
 .Anne {
   color: $color2;
-  font-size: 16px;
-  margin-top: 0px;
+  font-size: $std16;
+  margin-top: $std0;
 }
 
 .SocialM {
   text-align: center;
-  width: 200px;
-  font-size: 12px;
+  width: $std200;
+  font-size: $std12;
 }
 
 .SocialM li {
-  padding-right: 5.5px;
-  padding-left: 5.5px;
+  padding-right: $std10;
+  padding-left: $std10;
 }
 
 .liException li {
@@ -229,13 +230,13 @@ h1 {
 
 h2 {
   color: $color3;
-  text-height: 24px;
-  margin-bottom: 0px;
+  text-height: $std24;
+  margin-bottom: $std0;
 }
 
 .Main2Text {
   text-align: left;
-  margin-top: 0px;
+  margin-top: $std0;
 }
 
 /* Post Formating */
@@ -244,7 +245,7 @@ h2 {
   clear: both;
   text-align: center;
   color: $color1;
-  font-size: 54px;
+  font-size: $std54;
 }
 
 /* Footer Formating */
@@ -255,8 +256,8 @@ h2 {
 }
 
 .box {
-  width: 325px;
-  height: 325px;
+  width: $std325;
+  height: $std325;
   overflow: hidden;
   position: relative;
   background-color: $color2;
@@ -271,8 +272,8 @@ h2 {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 0 15px;
-  font-size: 28px;
+  padding: 0 $std15;
+  font-size: $std28;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -281,16 +282,16 @@ h2 {
   opacity: 1;
 }
 .box:hover p.text {
-  color: #FFF;
+  color: $color9;
 }
 
 /* Base Formating */
 
 .Base {
-  background-color: #083452;
+  background-color: $color1;
   color: grey;
-  height: 74px;
-  font-size: 12px;
+  height: $std74;
+  font-size: $std12;
 }
 
 .BaseLeft {

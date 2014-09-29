@@ -1,6 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Oswald");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans");
 /*Variables */
+/* Colors */
 /*Mixins */
 * {
   border: 1px solid #b5b0b0; }
@@ -11,7 +12,6 @@
   font-family: Oswald, sans-serif;
   border-bottom-style: solid;
   border-width: 1px;
-  border-color: #b5b0b0;
   height: 520px;
   background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg); }
 
@@ -52,7 +52,7 @@ li {
   display: inline-block; }
 
 .Main1, .Main2, .PostTitle, .Foot, .Base {
-  margin: 10 auto;
+  margin: 10px auto;
   font-family: "Open Sans" Sans-serif; }
 
 /* Main Formating */
@@ -74,7 +74,7 @@ li {
   width: 700px; }
 
 h1 {
-  color: #083452;
+  color: #083554;
   font-size: 56px; }
 
 .subheader {
@@ -97,7 +97,7 @@ h1 {
 .Footbox {
   width: 187px;
   float: left;
-  margin-right: 10px; }
+  margin-right: 1px; }
 
 .Footbox a.link {
   text-decoration: none;
@@ -107,11 +107,11 @@ h1 {
 .textbox {
   background-color: #5e676e;
   display: inline-block;
-  padding: 10px 13px; }
+  padding: 1px 13px; }
 
 .textbox {
   background-color: #a2b2be;
-  padding: 10px 15px 10px 10px;
+  padding: 1px 15px 1px 1px;
   margin-left: -4px; }
 
 .Footbox:hover .textbox {
@@ -126,7 +126,7 @@ h1 {
   width: 280px; }
 
 .Main2 li {
-  font-size: 10px;
+  font-size: 1px;
   margin-bottom: 0px; }
 
 .Anne {
@@ -140,8 +140,8 @@ h1 {
   font-size: 12px; }
 
 .SocialM li {
-  padding-right: 5.5px;
-  padding-left: 5.5px; }
+  padding-right: 10px;
+  padding-left: 10px; }
 
 .liException li {
   display: block;
@@ -159,9 +159,8 @@ h2 {
 /* Post Formating */
 .PostTitle {
   clear: both;
-  font-size: 28px;
   text-align: center;
-  color: #083452;
+  color: #083554;
   font-size: 54px; }
 
 /* Footer Formating */
@@ -195,19 +194,9 @@ h2 {
 .box:hover p.text {
   color: #FFF; }
 
-.image-caption {
-  float: right;
-  width: 250px;
-  text-align: left; }
-
-a:link {
-  color: black;
-  font-weight: bold;
-  text-decoration: none; }
-
 /* Base Formating */
 .Base {
-  background-color: #083452;
+  background-color: #083554;
   color: grey;
   height: 74px;
   font-size: 12px; }
