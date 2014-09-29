@@ -96,19 +96,25 @@ h1 {
 .Footbox {
   width: 187px;
   float: left;
-  margin-right: 10px;
-  background-color: grey;
-  color: white;
+  margin-right: 10px; }
+
+.Footbox a {
+  text-decoration: none;
+  color: #fff; }
+
+.imgbox,
+.textbox {
+  background-color: #5e676e;
   display: inline-block;
-  vertical-align: middle; }
+  padding: 10px 13px; }
+
+.textbox {
+  background-color: #a2b2be;
+  padding: 10px 15px 10px 10px;
+  margin-left: -4px; }
 
 .Footbox:hover .textbox {
   background-color: #106DB3; }
-
-.imgbox {
-  width: 20px;
-  height: 20px;
-  background-color: darkgrey; }
 
 .Footbox:hover .imgbox {
   background-color: black; }

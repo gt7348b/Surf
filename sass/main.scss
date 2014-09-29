@@ -11,17 +11,17 @@ $color3: grey;
 $font1: Oswald, sans serif;
 $font2: Open+Sans;
 
-$stdwd1: 20px;
-$stdwd2: 50px;
-$stdht1: 75px;
-$stdht2: 100px;
+$std1: 10px;
+$std2: 50px;
+$std3: 75px;
+$std4: 100px;
 
 /*Mixins */
 
 @mixin box1(){
   width: 187px;
   float: left;
-  margin-right: 10px;
+  margin-right: $std1;
 }
 
 
@@ -45,14 +45,14 @@ $stdht2: 100px;
   float: left;
   position: relative;
   top: 3%;
-  left: 50px
+  left: $std2;
 }
 
 .HeaderRight {
   float: right;
   position: relative;
   top: 24px;
-  right: 50px
+  right: $std2;
 }
 
 .Title {
@@ -139,25 +139,34 @@ h1 {
 
 .Footbox {
   @include box1;
-  background-color: $color3;
-  color: hsla(205, 100%, 100%, 1);
+}
+
+.Footbox a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.imgbox,
+.textbox {
+  background-color: hsla(205,8%,40%,1);
   display: inline-block;
-  vertical-align: middle;
+  padding: 10px 13px;
+}
+
+.textbox {
+  background-color: hsla(206,18%,69%,1);
+  padding: 10px 15px 10px 10px;
+  margin-left: -4px;
 }
 
 .Footbox:hover .textbox {
     background-color: #106DB3;
 }
 
-.imgbox{
-  width: 20px;
-  height: 20px;
-  background-color: darkgrey;
-}
-
 .Footbox:hover .imgbox {
     background-color: black;
 }
+
 
 /* Right Side Main Formating */
 
