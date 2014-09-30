@@ -60,7 +60,7 @@ $std700: 700px;
 
 .Header {
   text-align: center;
-  font-family: $fontfamily1;
+  font-family: $fontfamily2;
   border-bottom-style: solid;
   border-width: $std1;
   height: $std520;
@@ -98,6 +98,7 @@ $std700: 700px;
   position: relative;
   top: $std24;
   right: $std50;
+  font-family:$fontfamily2;
 
   a {
     text-decoration: none;
@@ -117,7 +118,7 @@ li {
 }
 
 .Main1, .Main2, .PostTitle, .Foot, .Base {
-  margin: $std10 auto;
+  margin: $std0 auto;
   font-family: $fontfamily2;
 }
 
@@ -148,6 +149,7 @@ li {
 h1 {
   color: $color1;
   font-size: $std56;
+  font-family:$fontfamily1;
 }
 
 .subheader {
@@ -171,7 +173,6 @@ h1 {
 .blockquote {
   color: $color2;
   font-size: $std24;
-  font-family: $fontfamily1;
 }
 
 .Headfoot {
@@ -250,6 +251,7 @@ h2 {
   color: $color2;
   text-height: $std24;
   margin-bottom: $std0;
+  font-family:$fontfamily1;
 }
 
 .Main2Text {
@@ -264,6 +266,7 @@ h2 {
   text-align: center;
   color: $color1;
   font-size: $std54;
+  font-family:$fontfamily1;
 }
 
 /* Footer Formating */
@@ -271,6 +274,7 @@ h2 {
 .Foot {
   clear: both;
   display: inline-block;
+  font-family:$fontfamily1;
 }
 
 .box {
