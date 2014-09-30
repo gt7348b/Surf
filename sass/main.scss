@@ -228,7 +228,8 @@ h1 {
 }
 
 .Main2box1 {
-  padding-top: $std50;
+  padding-top: $std80;
+  padding-bottom: $std56;
 
   .Anne {
     color: $color2;
@@ -283,6 +284,10 @@ h2 {
   display: inline-block;
   font-family:$fontfamily1;
   margin: 0 auto;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .box {
@@ -297,6 +302,8 @@ h2 {
 
   img {
     opacity: .2;
+    height: $std325;
+
   }
 
 

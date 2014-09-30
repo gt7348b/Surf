@@ -138,7 +138,8 @@ h1 {
   margin-bottom: 0px; }
 
 .Main2box1 {
-  padding-top: 50px; }
+  padding-top: 80px;
+  padding-bottom: 56px; }
   .Main2box1 .Anne {
     color: #106cb2;
     font-size: 16px;
@@ -179,6 +180,8 @@ h2 {
   display: inline-block;
   font-family: "Oswald", sans-serif;
   margin: 0 auto; }
+  .Foot a {
+    text-decoration: none; }
 
 .box {
   width: 325px;
@@ -188,7 +191,8 @@ h2 {
   background-color: #106cb2; }
 
 .box img {
-  opacity: .2; }
+  opacity: .2;
+  height: 325px; }
 .box p.text {
   color: #083554;
   position: absolute;
