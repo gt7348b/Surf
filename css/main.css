@@ -3,9 +3,6 @@
 /*Variables */
 /* Colors */
 /*Mixins */
-* {
-  border: 1px solid #b5b0b0; }
-
 /* Header Formating */
 .Header {
   text-align: center;
@@ -22,7 +19,7 @@
 .Title {
   font-size: 80px;
   color: white;
-  margin-top: 222px;
+  padding-top: 222px;
   margin-bottom: 0px;
   text-align: center; }
 
@@ -119,7 +116,7 @@ h1 {
 
 .textbox {
   background-color: #a2b2be;
-  padding: 10px 15px 10px 10px;
+  padding: 1px 15px 6px 10px;
   margin-left: -4px; }
 
 .Footbox:hover .textbox {
@@ -133,23 +130,22 @@ h1 {
   width: 280px; }
 
 .Main2 li {
-  font-size: 1px;
+  font-size: 12px;
   margin-bottom: 0px; }
 
-.Anne {
-  color: #106cb2;
-  font-size: 16px;
-  margin-top: 0px;
-  padding: 10px; }
-
-.SocialM {
-  text-align: center;
-  width: 200px;
-  font-size: 12px; }
-
-.SocialM li {
-  padding-right: 10px;
-  padding-left: 10px; }
+.Main2box1 {
+  padding: 50px; }
+  .Main2box1 .Anne {
+    color: #106cb2;
+    font-size: 16px;
+    margin: 0px; }
+  .Main2box1 .SocialM {
+    text-align: center;
+    width: 200px;
+    font-size: 12px; }
+  .Main2box1 .SocialM li {
+    padding-right: 10px;
+    padding-left: 10px; }
 
 .liException li {
   display: block;

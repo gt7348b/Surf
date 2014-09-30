@@ -21,6 +21,7 @@ $fontfamily2: "Open Sans" Sans-serif;
 $std0: 0px;
 $std2: -4px;
 $std1: 1px;
+$std6: 6px;
 $std10: 10px;
 $std11: 11px;
 $std12: 12px;
@@ -51,10 +52,6 @@ $std700: 700px;
   margin-right: $std1;
 }
 
-* {
-  border: 1px solid hsla(1, 3%, 70%, 1);
-}
-
 
 /* Header Formating */
 
@@ -75,7 +72,7 @@ $std700: 700px;
 .Title {
   font-size: $std80;
   color: hsla(205, 100%, 100%, 1);
-  margin-top: 222px;
+  padding-top: 222px;
   margin-bottom: $std0;
   text-align: center;
 }
@@ -197,7 +194,7 @@ h1 {
 
 .textbox {
   background-color: $color5;
-  padding: $std10 $std15 $std10 $std10 ;
+  padding: $std1 $std15 $std6 $std10 ;
   margin-left: $std2;
 }
 
@@ -220,26 +217,30 @@ h1 {
 }
 
 .Main2 li {
-  font-size: $std1;
+  font-size: $std12;
   margin-bottom: $std0;
 }
 
-.Anne {
-  color: $color2;
-  font-size: $std16;
-  margin-top: $std0;
-  padding: $std10;
-}
+.Main2box1 {
+  padding: $std50;
 
-.SocialM {
-  text-align: center;
-  width: $std200;
-  font-size: $std12;
-}
+  .Anne {
+    color: $color2;
+    font-size: $std16;
+    margin: $std0;
+  }
 
-.SocialM li {
-  padding-right: $std10;
-  padding-left: $std10;
+  .SocialM {
+    text-align: center;
+    width: $std200;
+    font-size: $std12;
+  }
+
+  .SocialM li {
+    padding-right: $std10;
+    padding-left: $std10;
+  }
+
 }
 
 .liException li {
