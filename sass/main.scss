@@ -19,8 +19,10 @@ $fontfamily1: "Oswald", sans-serif;
 $fontfamily2: "Open Sans" Sans-serif;
 
 $std0: 0px;
-$std2: -4px;
+$std-4: -4px;
 $std1: 1px;
+$std2: 2px;
+$std5: 5px;
 $std6: 6px;
 $std10: 10px;
 $std11: 11px;
@@ -112,6 +114,8 @@ ul {
 
 li {
   display: inline-block;
+  padding: $std0;
+  margin: $std0;
 }
 
 .Main1, .Main2, .PostTitle, .Foot, .Base {
@@ -170,6 +174,8 @@ h1 {
 .blockquote {
   color: $color2;
   font-size: $std24;
+  border-left: $std2 solid $color3;
+  padding-left: $std16;
 }
 
 .Headfoot {
@@ -195,7 +201,7 @@ h1 {
 .textbox {
   background-color: $color5;
   padding: $std1 $std15 $std6 $std10 ;
-  margin-left: $std2;
+  margin-left: $std-4;
 }
 
 .Footbox:hover{
@@ -276,6 +282,7 @@ h2 {
   clear: both;
   display: inline-block;
   font-family:$fontfamily1;
+  margin: 0 auto;
 }
 
 .box {

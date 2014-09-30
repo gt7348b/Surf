@@ -51,7 +51,9 @@ ul {
   margin: 0px; }
 
 li {
-  display: inline-block; }
+  display: inline-block;
+  padding: 0px;
+  margin: 0px; }
 
 .Main1, .Main2, .PostTitle, .Foot, .Base {
   margin: 0px auto;
@@ -94,7 +96,9 @@ h1 {
 
 .blockquote {
   color: #106cb2;
-  font-size: 24px; }
+  font-size: 24px;
+  border-left: 2px solid grey;
+  padding-left: 16px; }
 
 .Headfoot {
   text-align: center; }
@@ -134,7 +138,7 @@ h1 {
   margin-bottom: 0px; }
 
 .Main2box1 {
-  padding: 50px; }
+  padding-top: 50px; }
   .Main2box1 .Anne {
     color: #106cb2;
     font-size: 16px;
@@ -173,7 +177,8 @@ h2 {
 .Foot {
   clear: both;
   display: inline-block;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto; }
 
 .box {
   width: 325px;
