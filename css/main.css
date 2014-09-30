@@ -87,7 +87,7 @@ h1 {
   .subheader .Name {
     color: #106cb2; }
   .subheader a {
-    text-decoration: none;
+    text-decoration: underline;
     color: grey; }
 
 .Main1 img {
@@ -155,6 +155,9 @@ h1 {
 .liException li {
   display: block;
   text-align: right; }
+  .liException li a {
+    text-decoration: underline;
+    color: grey; }
 
 h2 {
   color: #106cb2;
@@ -164,7 +167,11 @@ h2 {
 
 .Main2Text {
   text-align: left;
-  margin-top: 0px; }
+  margin-top: 0px;
+  color: grey; }
+  .Main2Text a {
+    text-decoration: underline;
+    color: grey; }
 
 /* Post Formating */
 .PostTitle {
