@@ -227,4 +227,13 @@ h2 {
   padding-top: 2.5%;
   padding-right: 10%; }
 
+.Innerbox {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid grey; }
+
+.Endbox {
+  padding-left: 10px;
+  padding-right: 10px; }
+
 /*# sourceMappingURL=main.css.map */

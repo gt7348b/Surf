@@ -323,7 +323,7 @@ h2 {
 
 .Base {
   background-color: $color1;
-  color: grey;
+  color: $color3;
   height: $std74;
   font-size: $std12;
 }
@@ -344,4 +344,15 @@ h2 {
   position: relative;
   padding-top: 2.5%;
   padding-right: 10%;
+}
+
+.Innerbox {
+  padding-left: $std10;
+  padding-right: $std10;
+  border-right: $std1 solid $color3;
+}
+
+.Endbox {
+  padding-left: $std10;
+  padding-right: $std10;
 }
