@@ -17,11 +17,12 @@
   vertical-align: middle; }
 
 .Title {
-  font-size: 80px;
+  font-size: 102px;
   color: white;
   padding-top: 222px;
   margin-bottom: 0px;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .Subtitle {
   font-size: 14px;
@@ -32,14 +33,16 @@
   float: left;
   position: relative;
   top: 3%;
-  left: 50px; }
+  left: 50px;
+  text-transform: uppercase; }
 
 .HeaderRight {
   float: right;
   position: relative;
   top: 24px;
   right: 50px;
-  font-family: "Open Sans" Sans-serif; }
+  font-family: "Open Sans" Sans-serif;
+  text-transform: uppercase; }
   .HeaderRight a {
     text-decoration: none;
     font-size: 16px;
@@ -80,7 +83,8 @@ li {
 h1 {
   color: #083554;
   font-size: 56px;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase; }
 
 .subheader {
   font-size: 11px; }
@@ -98,7 +102,8 @@ h1 {
   color: #106cb2;
   font-size: 24px;
   border-left: 2px solid grey;
-  padding-left: 16px; }
+  padding-left: 16px;
+  text-transform: uppercase; }
 
 .Headfoot {
   text-align: center; }
@@ -143,7 +148,8 @@ h1 {
   .Main2box1 .Anne {
     color: #106cb2;
     font-size: 16px;
-    margin: 0px; }
+    margin: 0px;
+    text-transform: uppercase; }
   .Main2box1 .SocialM {
     text-align: center;
     width: 200px;
@@ -163,7 +169,8 @@ h2 {
   color: #106cb2;
   text-height: 24px;
   margin-bottom: 0px;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase; }
 
 .Main2Text {
   text-align: left;
@@ -179,7 +186,8 @@ h2 {
   text-align: center;
   color: #083554;
   font-size: 54px;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase; }
 
 /* Footer Formating */
 .Foot {
