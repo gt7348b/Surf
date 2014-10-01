@@ -185,9 +185,10 @@ h2 {
   clear: both;
   text-align: center;
   color: #083554;
-  font-size: 54px;
+  font-size: 62px;
   font-family: "Oswald", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 28px; }
 
 /* Footer Formating */
 .Foot {
