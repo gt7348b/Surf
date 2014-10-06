@@ -377,33 +377,33 @@ h2 {
   height: 100px;
   font-size: $std14;
   width: 1300px;
-}
 
-.BaseLeft {
-  float: left;
-  position: relative;
-  padding-top: 1%;
-  padding-left: 10%;
+  .BaseLeft {
+    float: left;
+    position: relative;
+    padding-top: 1%;
+    padding-left: 10%;
 
-  li {
-    vertical-align: middle;
+    li {
+      vertical-align: middle;
+    }
   }
-}
 
-.BaseRight {
-  float: right;
-  position: relative;
-  padding-top: 45px;
-  padding-right: 157.5px;
-}
+  .BaseRight {
+    float: right;
+    position: relative;
+    padding-top: 45px;
+    padding-right: 157.5px;
 
-.Innerbox {
-  padding-left: 5px;
-  padding-right: 5px;
-  border-right: $std1 solid $color3;
-}
+    .Innerbox {
+      padding-left: 5px;
+      padding-right: 5px;
+      border-right: $std1 solid $color3;
+    }
 
-.Endbox {
-  padding-left: 5px;
-  padding-right: 5px;
+    .Endbox {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
 }
