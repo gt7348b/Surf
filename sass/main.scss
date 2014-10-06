@@ -320,6 +320,7 @@ h2 {
   display: inline-block;
   font-family:$fontfamily1;
   margin: 0px auto;
+  height: $std325;
   width: 1350px;
   text-align: center;
 
@@ -327,40 +328,44 @@ h2 {
     text-decoration: none;
     font-size: 0px;
   }
-}
 
-.box {
-  width: $std325;
-  height: $std325;
-  overflow: hidden;
-  position: relative;
-  background-color: $color2;
-  text-align: left;
-
-  img {
-    opacity: .2;
+  ul {
     height: $std325;
-
   }
 
+  .box {
+    width: $std325;
+    height: $std325;
+    overflow: hidden;
+    position: relative;
+    background-color: $color2;
+    text-align: left;
 
-  p.text {
-  color: $color1;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0 $std15;
-  font-size: $std28;
-  text-transform: uppercase;
-  font-weight: bold;
-  }
+    img {
+      opacity: .2;
+      height: $std325;
 
-  :hover img {
-    opacity: 1;
-  }
+    }
 
-  :hover p.text {
-    color: $color9;
+
+    p.text {
+    color: $color1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 $std15;
+    font-size: $std28;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
+    :hover img {
+      opacity: 1;
+    }
+
+    :hover p.text {
+      color: $color9;
+    }
   }
 }
 
@@ -369,19 +374,20 @@ h2 {
 .Base {
   background-color: $color1;
   color: $color3;
-  height: $std74;
+  height: 100px;
   font-size: $std12;
+  width: 1300px;
 }
 
 .BaseLeft {
   float: left;
   position: relative;
   padding-top: 1%;
-  padding-left: 10%
-}
+  padding-left: 10%;
 
-.BaseLeft li {
-  vertical-align: middle;
+  li {
+    vertical-align: middle;
+  }
 }
 
 .BaseRight {

@@ -206,51 +206,53 @@ h2 {
   display: inline-block;
   font-family: "Oswald", sans-serif;
   margin: 0px auto;
+  height: 325px;
   width: 1350px;
   text-align: center; }
   .Foot a {
     text-decoration: none;
     font-size: 0px; }
-
-.box {
-  width: 325px;
-  height: 325px;
-  overflow: hidden;
-  position: relative;
-  background-color: #106cb2;
-  text-align: left; }
-  .box img {
-    opacity: .2;
+  .Foot ul {
     height: 325px; }
-  .box p.text {
-    color: #083554;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 0 15px;
-    font-size: 28px;
-    text-transform: uppercase;
-    font-weight: bold; }
-  .box :hover img {
-    opacity: 1; }
-  .box :hover p.text {
-    color: #FFF; }
+  .Foot .box {
+    width: 325px;
+    height: 325px;
+    overflow: hidden;
+    position: relative;
+    background-color: #106cb2;
+    text-align: left; }
+    .Foot .box img {
+      opacity: .2;
+      height: 325px; }
+    .Foot .box p.text {
+      color: #083554;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 0 15px;
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .Foot .box :hover img {
+      opacity: 1; }
+    .Foot .box :hover p.text {
+      color: #FFF; }
 
 /* Base Formating */
 .Base {
   background-color: #083554;
   color: grey;
-  height: 74px;
-  font-size: 12px; }
+  height: 100px;
+  font-size: 12px;
+  width: 1300px; }
 
 .BaseLeft {
   float: left;
   position: relative;
   padding-top: 1%;
   padding-left: 10%; }
-
-.BaseLeft li {
-  vertical-align: middle; }
+  .BaseLeft li {
+    vertical-align: middle; }
 
 .BaseRight {
   float: right;
