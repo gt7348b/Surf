@@ -69,7 +69,8 @@ body {
   border-width: $std1;
   height: $std520;
   background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg);
-
+  margin: 0px auto;
+  width: 1300px;
 
   li {
     display: inline-block;
@@ -80,7 +81,7 @@ body {
 .Title {
   font-size: $std102;
   color: hsla(205, 100%, 100%, 1);
-  padding-top: 222px;
+  padding-top: 190px;
   margin-bottom: $std0;
   text-align: center;
   text-transform: uppercase;

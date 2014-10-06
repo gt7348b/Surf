@@ -13,7 +13,9 @@ body {
   border-bottom-style: solid;
   border-width: 1px;
   height: 520px;
-  background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg); }
+  background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg);
+  margin: 0px auto;
+  width: 1300px; }
   .Header li {
     display: inline-block;
     vertical-align: middle; }
@@ -21,7 +23,7 @@ body {
 .Title {
   font-size: 102px;
   color: white;
-  padding-top: 222px;
+  padding-top: 190px;
   margin-bottom: 0px;
   text-align: center;
   text-transform: uppercase; }
