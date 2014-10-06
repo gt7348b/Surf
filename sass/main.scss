@@ -72,6 +72,7 @@ body {
   margin: 0px auto;
   width: 1300px;
 
+
   li {
     display: inline-block;
     vertical-align: middle;
@@ -82,14 +83,11 @@ body {
   font-size: $std102;
   color: hsla(205, 100%, 100%, 1);
   padding-top: 190px;
+  margin-top: 0px;
   margin-bottom: $std0;
   text-align: center;
   text-transform: uppercase;
 
-  .aligntitle{
-    position: absolute;
-    bottom: 0;
-  }
 }
 
 .Subtitle {
