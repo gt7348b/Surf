@@ -163,9 +163,10 @@ li {
 
 h1 {
   color: $color1;
-  font-size: $std56;
+  font-size: 62px;
   font-family:$fontfamily1;
   text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 .subheader {
@@ -252,6 +253,8 @@ h1 {
     font-size: $std16;
     margin: $std0;
     text-transform: uppercase;
+    height: 18px;
+    margin-top: 5px;
   }
 
   .SocialM {

@@ -88,9 +88,10 @@ li {
 
 h1 {
   color: #083554;
-  font-size: 56px;
+  font-size: 62px;
   font-family: "Oswald", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 0px; }
 
 .subheader {
   font-size: 11px; }
@@ -154,7 +155,9 @@ h1 {
     color: #106cb2;
     font-size: 16px;
     margin: 0px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    height: 18px;
+    margin-top: 5px; }
   .Main2box1 .SocialM {
     text-align: center;
     width: 200px;
