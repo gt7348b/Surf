@@ -375,7 +375,7 @@ h2 {
   background-color: $color1;
   color: $color3;
   height: 100px;
-  font-size: $std12;
+  font-size: $std14;
   width: 1300px;
 }
 
@@ -393,17 +393,17 @@ h2 {
 .BaseRight {
   float: right;
   position: relative;
-  padding-top: 2.5%;
-  padding-right: 10%;
+  padding-top: 45px;
+  padding-right: 157.5px;
 }
 
 .Innerbox {
-  padding-left: $std10;
-  padding-right: $std10;
+  padding-left: 5px;
+  padding-right: 5px;
   border-right: $std1 solid $color3;
 }
 
 .Endbox {
-  padding-left: $std10;
-  padding-right: $std10;
+  padding-left: 5px;
+  padding-right: 5px;
 }
