@@ -43,9 +43,9 @@ body {
 .HeaderRight {
   float: right;
   position: relative;
-  top: 24px;
-  right: 50px;
-  font-family: "Open Sans" Sans-serif;
+  top: 19px;
+  right: 170px;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase; }
   .HeaderRight a {
     text-decoration: none;
