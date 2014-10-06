@@ -282,7 +282,8 @@ h1 {
 
 h2 {
   color: $color2;
-  text-height: 16px;
+  font-size: 16px;
+  margin-top: 48px;
   margin-bottom: $std0;
   font-family:$fontfamily1;
   text-transform: uppercase;
@@ -318,7 +319,8 @@ h2 {
   clear: both;
   display: inline-block;
   font-family:$fontfamily1;
-  margin: 0 auto;
+  margin: 0px auto;
+  width: 1500px;
 
   a {
     text-decoration: none;

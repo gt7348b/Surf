@@ -175,7 +175,8 @@ h1 {
 
 h2 {
   color: #106cb2;
-  text-height: 24px;
+  font-size: 16px;
+  margin-top: 48px;
   margin-bottom: 0px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase; }
@@ -204,7 +205,8 @@ h2 {
   clear: both;
   display: inline-block;
   font-family: "Oswald", sans-serif;
-  margin: 0 auto; }
+  margin: 0px auto;
+  width: 1500px; }
   .Foot a {
     text-decoration: none; }
 
