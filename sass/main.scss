@@ -320,11 +320,12 @@ h2 {
   display: inline-block;
   font-family:$fontfamily1;
   margin: 0px auto;
-  width: 1500px;
+  width: 1350px;
   text-align: center;
 
   a {
     text-decoration: none;
+    font-size: 0px;
   }
 }
 
@@ -334,9 +335,7 @@ h2 {
   overflow: hidden;
   position: relative;
   background-color: $color2;
-}
-
-.box {
+  text-align: left;
 
   img {
     opacity: .2;
@@ -355,13 +354,14 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   }
-}
 
-.box:hover img {
-  opacity: 1;
-}
-.box:hover p.text {
-  color: $color9;
+  :hover img {
+    opacity: 1;
+  }
+
+  :hover p.text {
+    color: $color9;
+  }
 }
 
 /* Base Formating */

@@ -206,35 +206,35 @@ h2 {
   display: inline-block;
   font-family: "Oswald", sans-serif;
   margin: 0px auto;
-  width: 1500px; }
+  width: 1350px;
+  text-align: center; }
   .Foot a {
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 0px; }
 
 .box {
   width: 325px;
   height: 325px;
   overflow: hidden;
   position: relative;
-  background-color: #106cb2; }
-
-.box img {
-  opacity: .2;
-  height: 325px; }
-.box p.text {
-  color: #083554;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0 15px;
-  font-size: 28px;
-  text-transform: uppercase;
-  font-weight: bold; }
-
-.box:hover img {
-  opacity: 1; }
-
-.box:hover p.text {
-  color: #FFF; }
+  background-color: #106cb2;
+  text-align: left; }
+  .box img {
+    opacity: .2;
+    height: 325px; }
+  .box p.text {
+    color: #083554;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 15px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .box :hover img {
+    opacity: 1; }
+  .box :hover p.text {
+    color: #FFF; }
 
 /* Base Formating */
 .Base {
