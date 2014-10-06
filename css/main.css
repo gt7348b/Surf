@@ -3,6 +3,9 @@
 /*Variables */
 /* Colors */
 /*Mixins */
+body {
+  margin: 0px auto; }
+
 /* Header Formating */
 .Header {
   text-align: center;
@@ -11,10 +14,9 @@
   border-width: 1px;
   height: 520px;
   background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg); }
-
-.Header li {
-  display: inline-block;
-  vertical-align: middle; }
+  .Header li {
+    display: inline-block;
+    vertical-align: middle; }
 
 .Title {
   font-size: 102px;
@@ -32,8 +34,8 @@
 .HeaderLeft {
   float: left;
   position: relative;
-  top: 3%;
-  left: 50px;
+  top: 10px;
+  left: 140px;
   text-transform: uppercase; }
 
 .HeaderRight {
@@ -112,10 +114,9 @@ h1 {
   width: 200px;
   float: left;
   margin-right: 1px; }
-
-.Footbox a.link {
-  text-decoration: none;
-  color: #fff; }
+  .Footbox a.link {
+    text-decoration: none;
+    color: #fff; }
 
 .imgbox,
 .textbox {

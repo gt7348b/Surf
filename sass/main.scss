@@ -69,11 +69,12 @@ body {
   border-width: $std1;
   height: $std520;
   background-image: url(https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg);
-}
 
-.Header li {
+
+  li {
     display: inline-block;
     vertical-align: middle;
+  }
 }
 
 .Title {
@@ -94,8 +95,8 @@ body {
 .HeaderLeft {
   float: left;
   position: relative;
-  top: 50px;
-  left: 375px;
+  top: 10px;
+  left: 140px;
   text-transform: uppercase;
 }
 
