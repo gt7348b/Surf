@@ -197,108 +197,109 @@ h1 {
 
 .Headfoot {
   text-align: center;
-}
 
-.Footbox {
-  @include box1;
+  .Footbox {
+    @include box1;
 
-  a.link {
-  text-decoration: none;
-  color: $color6;
+    a {
+    text-decoration: none;
+    color: $color6;
+    }
+
+    .imgbox,
+    .textbox {
+      background-color: $color4;
+      display: inline-block;
+      padding: $std1 $std13;
+    }
+
+    .textbox {
+      background-color: $color5;
+      padding: $std1 $std15 $std6 $std10 ;
+      margin-left: $std-4;
+    }
+
+    :hover{
+
+      .textbox {
+        background-color: $color7;
+      }
+
+      .imgbox {
+        background-color: $color8;
+      }
+    }
   }
 }
 
-.imgbox,
-.textbox {
-  background-color: $color4;
-  display: inline-block;
-  padding: $std1 $std13;
-}
-
-.textbox {
-  background-color: $color5;
-  padding: $std1 $std15 $std6 $std10 ;
-  margin-left: $std-4;
-}
-
-.Footbox:hover{
-
-  .textbox {
-    background-color: $color7;
-  }
-
-  .imgbox {
-    background-color: $color8;
-  }
-}
 
 /* Right Side Main Formating */
 
 .Main2 {
   text-align: center;
   width: $std280;
-}
 
-.Main2 li {
-  font-size: $std12;
-  margin-bottom: $std0;
-}
-
-.Main2box1 {
-  padding-top: $std80;
-  padding-bottom: $std56;
-
-  .Anne {
-    color: $color2;
-    font-size: $std16;
-    margin: $std0;
-    text-transform: uppercase;
-    height: 18px;
-    margin-top: 5px;
-  }
-
-  .SocialM {
-    text-align: center;
-    width: $std200;
+  li {
     font-size: $std12;
+    margin-bottom: $std0;
   }
 
-  .SocialM li {
-    padding-right: $std10;
-    padding-left: $std10;
+  .Main2box1 {
+    padding-top: $std80;
+    padding-bottom: $std56;
+
+    .Anne {
+      color: $color2;
+      font-size: $std16;
+      margin: $std0;
+      text-transform: uppercase;
+      height: 18px;
+      margin-top: 5px;
+    }
+
+    .SocialM {
+      text-align: center;
+      width: $std200;
+      font-size: $std12;
+
+      li {
+        padding-right: $std10;
+        padding-left: $std10;
+      }
+    }
   }
 
-}
+  .liException li {
+    display: block;
+    text-align: right;
 
-.liException li {
-  display: block;
-  text-align: right;
+    a {
+      text-decoration: underline;
+      color: $color3;
+    }
+  }
 
-  a {
-    text-decoration: underline;
+  h2 {
+    color: $color2;
+    font-size: 16px;
+    margin-top: 48px;
+    margin-bottom: $std0;
+    font-family:$fontfamily1;
+    text-transform: uppercase;
+  }
+
+  .Main2Text {
+    text-align: left;
+    margin-top: $std0;
     color: $color3;
+
+    a {
+      text-decoration: underline;
+      color: $color3;
+    }
   }
 }
 
-h2 {
-  color: $color2;
-  font-size: 16px;
-  margin-top: 48px;
-  margin-bottom: $std0;
-  font-family:$fontfamily1;
-  text-transform: uppercase;
-}
-
-.Main2Text {
-  text-align: left;
-  margin-top: $std0;
-  color: $color3;
-
-  a {
-    text-decoration: underline;
-    color: $color3;
-  }
-}
 
 /* Post Formating */
 

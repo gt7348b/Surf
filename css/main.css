@@ -114,80 +114,71 @@ h1 {
 
 .Headfoot {
   text-align: center; }
-
-.Footbox {
-  width: 200px;
-  float: left;
-  margin-right: 1px; }
-  .Footbox a.link {
-    text-decoration: none;
-    color: #fff; }
-
-.imgbox,
-.textbox {
-  background-color: #5e676e;
-  display: inline-block;
-  padding: 1px 13px; }
-
-.textbox {
-  background-color: #a2b2be;
-  padding: 1px 15px 6px 10px;
-  margin-left: -4px; }
-
-.Footbox:hover .textbox {
-  background-color: #106DB3; }
-.Footbox:hover .imgbox {
-  background-color: black; }
+  .Headfoot .Footbox {
+    width: 200px;
+    float: left;
+    margin-right: 1px; }
+    .Headfoot .Footbox a {
+      text-decoration: none;
+      color: #fff; }
+    .Headfoot .Footbox .imgbox,
+    .Headfoot .Footbox .textbox {
+      background-color: #5e676e;
+      display: inline-block;
+      padding: 1px 13px; }
+    .Headfoot .Footbox .textbox {
+      background-color: #a2b2be;
+      padding: 1px 15px 6px 10px;
+      margin-left: -4px; }
+    .Headfoot .Footbox :hover .textbox {
+      background-color: #106DB3; }
+    .Headfoot .Footbox :hover .imgbox {
+      background-color: black; }
 
 /* Right Side Main Formating */
 .Main2 {
   text-align: center;
   width: 280px; }
-
-.Main2 li {
-  font-size: 12px;
-  margin-bottom: 0px; }
-
-.Main2box1 {
-  padding-top: 80px;
-  padding-bottom: 56px; }
-  .Main2box1 .Anne {
+  .Main2 li {
+    font-size: 12px;
+    margin-bottom: 0px; }
+  .Main2 .Main2box1 {
+    padding-top: 80px;
+    padding-bottom: 56px; }
+    .Main2 .Main2box1 .Anne {
+      color: #106cb2;
+      font-size: 16px;
+      margin: 0px;
+      text-transform: uppercase;
+      height: 18px;
+      margin-top: 5px; }
+    .Main2 .Main2box1 .SocialM {
+      text-align: center;
+      width: 200px;
+      font-size: 12px; }
+      .Main2 .Main2box1 .SocialM li {
+        padding-right: 10px;
+        padding-left: 10px; }
+  .Main2 .liException li {
+    display: block;
+    text-align: right; }
+    .Main2 .liException li a {
+      text-decoration: underline;
+      color: grey; }
+  .Main2 h2 {
     color: #106cb2;
     font-size: 16px;
-    margin: 0px;
-    text-transform: uppercase;
-    height: 18px;
-    margin-top: 5px; }
-  .Main2box1 .SocialM {
-    text-align: center;
-    width: 200px;
-    font-size: 12px; }
-  .Main2box1 .SocialM li {
-    padding-right: 10px;
-    padding-left: 10px; }
-
-.liException li {
-  display: block;
-  text-align: right; }
-  .liException li a {
-    text-decoration: underline;
+    margin-top: 48px;
+    margin-bottom: 0px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase; }
+  .Main2 .Main2Text {
+    text-align: left;
+    margin-top: 0px;
     color: grey; }
-
-h2 {
-  color: #106cb2;
-  font-size: 16px;
-  margin-top: 48px;
-  margin-bottom: 0px;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase; }
-
-.Main2Text {
-  text-align: left;
-  margin-top: 0px;
-  color: grey; }
-  .Main2Text a {
-    text-decoration: underline;
-    color: grey; }
+    .Main2 .Main2Text a {
+      text-decoration: underline;
+      color: grey; }
 
 /* Post Formating */
 .PostTitle {
