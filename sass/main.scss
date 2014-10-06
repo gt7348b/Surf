@@ -55,6 +55,10 @@ $std700: 700px;
   margin-right: $std1;
 }
 
+body {
+  margin: 0px auto;
+}
+
 
 /* Header Formating */
 
@@ -90,8 +94,8 @@ $std700: 700px;
 .HeaderLeft {
   float: left;
   position: relative;
-  top: 3%;
-  left: $std50;
+  top: 50px;
+  left: 375px;
   text-transform: uppercase;
 }
 
@@ -190,11 +194,11 @@ h1 {
 
 .Footbox {
   @include box1;
-}
 
-.Footbox a.link {
+  a.link {
   text-decoration: none;
   color: $color6;
+  }
 }
 
 .imgbox,
