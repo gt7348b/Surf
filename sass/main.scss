@@ -85,6 +85,11 @@ body {
   margin-bottom: $std0;
   text-align: center;
   text-transform: uppercase;
+
+  .aligntitle{
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .Subtitle {
