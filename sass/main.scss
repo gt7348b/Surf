@@ -189,9 +189,11 @@ h1 {
 
 .blockquote {
   color: $color2;
-  font-size: $std24;
+  font-size: 28px;
   border-left: $std2 solid $color3;
   padding-left: $std16;
+  padding-top: 6px;
+  padding-bottom: 6px;
   text-transform: uppercase;
 }
 
@@ -360,6 +362,7 @@ h1 {
     font-size: $std28;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 12px;
     }
 
     :hover img {
