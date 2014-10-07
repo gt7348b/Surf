@@ -117,9 +117,7 @@ h1 {
 .Headfoot {
   text-align: center; }
   .Headfoot .Footbox {
-    width: 200px;
-    float: left;
-    margin-right: 1px; }
+    height: 28px; }
     .Headfoot .Footbox a {
       text-decoration: none;
       color: #fff;
@@ -129,11 +127,15 @@ h1 {
       background-color: #5e676e;
       display: inline-block;
       padding: 10px 13px; }
+      .Headfoot .Footbox .imgbox img,
+      .Headfoot .Footbox .textbox img {
+        height: 18px;
+        width: 18px; }
     .Headfoot .Footbox .textbox {
       background-color: #a2b2be;
-      padding: 10px 15px 10px 10px;
-      margin-left: -4px;
-      font-size: 14px; }
+      padding: 10px 20px 10px 10px;
+      margin-left: 2px;
+      font-size: 12px; }
     .Headfoot .Footbox :hover .textbox {
       background-color: #106DB3; }
     .Headfoot .Footbox :hover .imgbox {
@@ -202,7 +204,7 @@ h1 {
   font-family: "Oswald", sans-serif;
   margin: 0px auto;
   height: 325px;
-  width: 1350px;
+  width: 1320px;
   text-align: center; }
   .Foot a {
     text-decoration: none;

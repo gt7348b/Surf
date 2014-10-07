@@ -201,7 +201,7 @@ h1 {
   text-align: center;
 
   .Footbox {
-    @include box1;
+    height: 28px;
 
     a {
     text-decoration: none;
@@ -214,13 +214,18 @@ h1 {
       background-color: $color4;
       display: inline-block;
       padding: 10px 13px;
+
+      img {
+        height: 18px;
+        width: 18px;
+      }
     }
 
     .textbox {
       background-color: $color5;
-      padding: 10px 15px 10px 10px;
-      margin-left: $std-4;
-      font-size: 14px;
+      padding: 10px 20px 10px 10px;
+      margin-left: 2px;
+      font-size: 12px;
     }
 
     :hover{
@@ -326,7 +331,7 @@ h1 {
   font-family:$fontfamily1;
   margin: 0px auto;
   height: $std325;
-  width: 1350px;
+  width: 1320px;
   text-align: center;
 
   a {
