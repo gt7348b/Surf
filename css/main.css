@@ -199,10 +199,9 @@ h1 {
 
 /* Footer Formating */
 .Foot {
-  clear: both;
-  display: inline-block;
-  font-family: "Oswald", sans-serif;
   margin: 0px auto;
+  clear: both;
+  font-family: "Oswald", sans-serif;
   height: 325px;
   width: 1320px;
   text-align: center; }
@@ -211,8 +210,10 @@ h1 {
     font-size: 0px; }
   .Foot ul {
     height: 325px; }
+    .Foot ul li {
+      margin-right: -4px; }
   .Foot .box {
-    width: 325px;
+    width: 320px;
     height: 325px;
     overflow: hidden;
     position: relative;

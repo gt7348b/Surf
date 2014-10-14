@@ -326,11 +326,10 @@ h1 {
 /* Footer Formating */
 
 .Foot {
-  clear: both;
-  display: inline-block;
-  font-family:$fontfamily1;
   margin: 0px auto;
-  height: $std325;
+  clear: both;
+  font-family:$fontfamily1;
+  height: 325px;
   width: 1320px;
   text-align: center;
 
@@ -341,10 +340,14 @@ h1 {
 
   ul {
     height: $std325;
+
+    li{
+       margin-right: -4px;
+    }
   }
 
   .box {
-    width: $std325;
+    width: 320px;
     height: $std325;
     overflow: hidden;
     position: relative;
