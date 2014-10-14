@@ -202,6 +202,7 @@ h1 {
 
   .Footbox {
     height: 28px;
+    padding: 0px 7.5px;
 
     a {
     text-decoration: none;
@@ -213,7 +214,8 @@ h1 {
     .textbox {
       background-color: $color4;
       display: inline-block;
-      padding: 10px 13px;
+      padding: 8px 10px;
+      vertical-align: top;
 
       img {
         height: 16px;
@@ -223,8 +225,7 @@ h1 {
 
     .textbox {
       background-color: $color5;
-      padding: 10px 20px 10px 10px;
-      margin-left: 2px;
+      padding: 7px 20px 10px 10px;
       font-size: 12px;
     }
 
@@ -347,7 +348,7 @@ h1 {
   }
 
   .box {
-    width: 320px;
+    width: 325px;
     height: $std325;
     overflow: hidden;
     position: relative;
@@ -357,6 +358,7 @@ h1 {
     img {
       opacity: .2;
       height: $std325;
+      width: 325px;
 
     }
 

@@ -117,7 +117,8 @@ h1 {
 .Headfoot {
   text-align: center; }
   .Headfoot .Footbox {
-    height: 28px; }
+    height: 28px;
+    padding: 0px 7.5px; }
     .Headfoot .Footbox a {
       text-decoration: none;
       color: #fff;
@@ -126,15 +127,15 @@ h1 {
     .Headfoot .Footbox .textbox {
       background-color: #5e676e;
       display: inline-block;
-      padding: 10px 13px; }
+      padding: 8px 10px;
+      vertical-align: top; }
       .Headfoot .Footbox .imgbox img,
       .Headfoot .Footbox .textbox img {
         height: 16px;
         width: 16px; }
     .Headfoot .Footbox .textbox {
       background-color: #a2b2be;
-      padding: 10px 20px 10px 10px;
-      margin-left: 2px;
+      padding: 7px 20px 10px 10px;
       font-size: 12px; }
     .Headfoot .Footbox :hover .textbox {
       background-color: #106DB3; }
@@ -213,7 +214,7 @@ h1 {
     .Foot ul li {
       margin-right: -4px; }
   .Foot .box {
-    width: 320px;
+    width: 325px;
     height: 325px;
     overflow: hidden;
     position: relative;
@@ -221,7 +222,8 @@ h1 {
     text-align: left; }
     .Foot .box img {
       opacity: .2;
-      height: 325px; }
+      height: 325px;
+      width: 325px; }
     .Foot .box p.text {
       color: #083554;
       position: absolute;
