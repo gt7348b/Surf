@@ -247,14 +247,14 @@ h1 {
   .Base .BaseLeft {
     float: left;
     position: relative;
-    padding-top: 1%;
+    padding-top: 24px;
     padding-left: 10%; }
     .Base .BaseLeft li {
       vertical-align: middle; }
   .Base .BaseRight {
     float: right;
     position: relative;
-    padding-top: 45px;
+    padding-top: 35px;
     padding-right: 157.5px; }
     .Base .BaseRight .Innerbox {
       padding-left: 5px;
